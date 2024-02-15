@@ -106,3 +106,7 @@ function gameOver(){
     removeColor(currentAlphabet)
     
 }
+function back(){
+    hideElement('play-ground');
+    showElement('home')
+}
